@@ -110,7 +110,7 @@
 
 
 
-// *   user se maango ek num and num 10 se jada ho to helo print karo nhito hye pint karo
+//* Q 1. user se maango ek num and num 10 se jada ho to helo print karo nhito hye pint karo
 
 // var num = Number(prompt("ek number de do :"))
 
@@ -123,7 +123,7 @@
 
 
 
-// * Q user se number mango and usme 20 add karo and agr wo 20 add krne pr 30 se jada aye to uska answoe print kro nhito msg do
+//* Q 2. user se number mango and usme 20 add karo and agr wo 20 add krne pr 30 se jada aye to uska answoe print kro nhito msg do
 
 // var number = Number(prompt("ek no de do : "))
 // var number = number + 20
@@ -140,7 +140,7 @@
 
 
 
-// * Q user se 2 passwords mango and agr match kar jaye to login karo nhito mat karo 
+//* Q 3. user se 2 passwords mango and agr match kar jaye to login karo nhito mat karo 
 
 // var pass1 = prompt("password :")
 // var pass2 = prompt("verify password :")
@@ -155,7 +155,7 @@
 
 
 
-// * Q4 तुमच्याकडे temperature नावाचा variable आहे. जर तापमान 30°C पेक्षा जास्त असेल तर "It's hot!", 15 ते 30°C दरम्यान असेल तर "It's warm!", आणि 15°C पेक्षा कमी असेल तर "It's cold!" हा मेसेज दाखवा.
+//* Q 4. तुमच्याकडे temperature नावाचा variable आहे. जर तापमान 30°C पेक्षा जास्त असेल तर "It's hot!", 15 ते 30°C दरम्यान असेल तर "It's warm!", आणि 15°C पेक्षा कमी असेल तर "It's cold!" हा मेसेज दाखवा.
 
 // var temperature = 10
 
@@ -170,7 +170,7 @@
 
 
 
-//* Q5 Ek number input ghe. To positive ahe ka negative te sanga.
+//* Q 5. Ek number input ghe. To positive ahe ka negative te sanga.
 
 // var num = Number(prompt("ek no dya :"))
 
@@ -186,7 +186,7 @@
 
 
 
- //* Q6 Dilela number even ahe ka odd te check kara.
+ //* Q 6. Dilela number even ahe ka odd te check kara.
 
 // var num = Number(prompt("ek no dya :"))
 
@@ -199,7 +199,7 @@
 
 
 
- //* Q7 User chi age input gya. Age 18+ asel tar "Eligible for voting" sanga, nahi tar "Not eligible" sanga.
+ //* Q 7. User chi age input gya. Age 18+ asel tar "Eligible for voting" sanga, nahi tar "Not eligible" sanga.
 
 // var age = Number(prompt("pliz mention your age"))
 
@@ -211,7 +211,7 @@
 
 
 
- //* Q8 Don numbers dile tar konta motha ahe te find kara.
+ //* Q 8. Don numbers dile tar konta motha ahe te find kara.
 
 // var num1 = Number(prompt("phila num dya :"))
 // var num2 = Number(prompt("dusra num dya :"))
@@ -227,7 +227,7 @@
 
 
 
- //* Q8 Ek year input ghe ani to leap year ahe ka nahi te check kara.
+ //* Q 9. Ek year input ghe ani to leap year ahe ka nahi te check kara.
 
 // var year = Number(prompt("ek year sang :"))
 
@@ -239,7 +239,7 @@
 
 
 
- //* Q9 Marks input ghe ani he logic vapra: 90+ ➝ A, 75-89 ➝ B, 50-74 ➝ C, <50 ➝ Fail
+ //* Q 10. Marks input ghe ani he logic vapra: 90+ ➝ A, 75-89 ➝ B, 50-74 ➝ C, <50 ➝ Fail
 
 // var sanketMarks = Number(prompt("Sanket che marks :")) 
 
@@ -258,7 +258,7 @@
 
 
 
- //* Q10 Ek number check kara ki to 5 ani 3 ne donhi divide hotoy ka.
+ //* Q 11. Ek number check kara ki to 5 ani 3 ne donhi divide hotoy ka.
 
 // var num = Number(prompt("ek no de"))
 
@@ -271,7 +271,7 @@
 
 
 
- //* Q11 Teen numbers dile tar konta lahan ahe te find kara.
+ //* Q 12. Teen numbers dile tar konta lahan ahe te find kara.
 
 // var num1 = Number(prompt("pahila no."))
 // var num2 = Number(prompt("dusra no."))
@@ -292,7 +292,7 @@
 
 
 
- //* Q12 Ek letter input ghe ani vowel (a, e, i, o, u) ahe ka consonant te sanga.
+ //* Q 13. Ek letter input ghe ani vowel (a, e, i, o, u) ahe ka consonant te sanga.
 
 // var letter = prompt("ek latter dya :").toLowerCase()
 
@@ -305,7 +305,7 @@
 
 
 
- //* Q13 Triangle che teen angles dile astil tar tyancha sum 180° ahe ka nahi te check kara. Sum 180° asel tar "Valid triangle" nahi tar "Invalid triangle" sanga.
+ //* Q 14. Triangle che teen angles dile astil tar tyancha sum 180° ahe ka nahi te check kara. Sum 180° asel tar "Valid triangle" nahi tar "Invalid triangle" sanga.
 
 // var angle1 = Number(prompt("phila angle"))
 // var angle2 = Number(prompt("dusra angle"))
@@ -336,7 +336,7 @@
 
 // *** for loop ***
 
- //* Q 1 👉Print numbers from 1 to 10.
+ //* Q 1. 👉Print numbers from 1 to 10.
 
 // for (let num = 1; num <= 10; num++) {
 //     console.log(num);    
@@ -344,7 +344,7 @@
 
 
 
- //* Q 2 👉 Find the sum of numbers from 1 to 10.
+ //* Q 2. 👉 Find the sum of numbers from 1 to 10.
 
 // let sum = 0
 // for (let num = 1; num <= 10; num++) {
@@ -354,7 +354,7 @@
 
 
 
- //* Q 3 👉 Print the square of numbers from 1 to 10.
+ //* Q 3. 👉 Print the square of numbers from 1 to 10.
 
 // for (let square = 1; square <= 10; square++) {
 //         console.log(square * square);      
@@ -362,7 +362,7 @@
 
 
 
- //* Q 4 👉 Print the multiplication table of a given number.
+ //* Q 4. 👉 Print the multiplication table of a given number.
 
 // var num = Number(prompt("ek num do:"))
 
@@ -372,7 +372,7 @@
 
 
 
- //* Q 5 👉 Print even and odd numbers separately from 1 to 10.
+ //* Q 5. 👉 Print even and odd numbers separately from 1 to 10.
 
     // console.log("Even num");
     // for (let num = 1; num < 10; num++) {
@@ -390,7 +390,7 @@
 
     
 
- //* Q 6 👉 Reverse a given string and print it.
+ //* Q 6. 👉 Reverse a given string and print it.
 
 // let str = prompt("ek string dya:")
 // var rstr = ""
@@ -403,7 +403,7 @@
 
 
 
- //* Q 7 👉 Print a countdown from a given number to 1.
+ //* Q 7. 👉 Print a countdown from a given number to 1.
 
 // for (let num = 10; num >= 1; num--) {
 //     console.log(num);        
@@ -411,7 +411,7 @@
 
 
 
-//* Q 8 👉 Print numbers divisible by 3 up to a given number.
+ //* Q. 8 👉 Print numbers divisible by 3 up to a given number.
 
 // for (let num = 1; num <= 30; num++) {
 //     if (num % 3 === 0) {
@@ -422,7 +422,7 @@
 
 
 
- //* Q 9 👉 Print all elements of an array.
+ //* Q. 9 👉 Print all elements of an array.
 
 // var arr = [10,20,30,40,50,60,70,80,90]
 
@@ -433,7 +433,7 @@
 
 
 
-//* Q 10 👉 Print the first 10 numbers of the Fibonacci series.
+  //* Q. 10 👉 Print the first 10 numbers of the Fibonacci series.
 
 // let a = 1, b = 1;
 
@@ -462,7 +462,7 @@
 
 
 
-//* Q 1 Print each element of the array [1, 2, 3, 4, 5] using forEach.
+ //* Q 1. Print each element of the array [1, 2, 3, 4, 5] using forEach.
 
 // var arr =  [1, 2, 3, 4, 5] 
 
@@ -473,7 +473,7 @@
 
 
 
-//* Q 2 Convert each string in the array ["apple", "banana", "cherry"] to uppercase and print it.
+ //* Q 2. Convert each string in the array ["apple", "banana", "cherry"] to uppercase and print it.
 
 // var arr =  ["apple", "banana", "cherry"]
 
@@ -481,7 +481,7 @@
 
 
 
-//* Q 3 Print the square of each number in the array [2, 4, 6, 8, 10].
+ //* Q 3. Print the square of each number in the array [2, 4, 6, 8, 10].
 
 // var arr = [2, 4, 6, 8, 10]
 
@@ -489,7 +489,7 @@
 
 
 
-//* Q 4 Append "is learning JavaScript" to each name in the array ["Sanket", "Raj", "Pooja", "Amit"] and print it.
+ //* Q 4. Append "is learning JavaScript" to each name in the array ["Sanket", "Raj", "Pooja", "Amit"] and print it.
 
 // var names =  ["Sanket", "Raj", "Pooja", "Amit"]
 
@@ -497,7 +497,7 @@
 
 
 
-//* Q 5 Find the sum of all numbers in an array using forEach.
+ //* Q 5. Find the sum of all numbers in an array using forEach.
 
 // let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 // let sum = 0
@@ -505,7 +505,7 @@
 
 
 
-//* Q 6 Add "is available" to each product in the array ["Laptop", "Mouse", "Keyboard"] and print it.
+ //* Q 6. Add "is available" to each product in the array ["Laptop", "Mouse", "Keyboard"] and print it.
 
 // var products = ["Laptop", "Mouse", "Keyboard"] 
 
@@ -513,7 +513,7 @@
 
 
 
-//* Q 7 Multiply each number in [10, 20, 30, 40, 50] by 5 and print it.
+ //* Q 7. Multiply each number in [10, 20, 30, 40, 50] by 5 and print it.
 
 // var DilelaNum = Number(prompt("ek number dya : "))
 // var arr =  [10, 20, 30, 40, 50] 
@@ -521,7 +521,7 @@
 
 
 
-//* Q 8 Print the length of each word in the array ["cat", "dog", "elephant"].
+ //* Q 8. Print the length of each word in the array ["cat", "dog", "elephant"].
 
 // var anmls = ["cat", "dog", "elephant"]
 
@@ -529,7 +529,7 @@
 
 
 
-//* Q 9 Print each element with its index and first letter from an array.
+ //* Q 9. Print each element with its index and first letter from an array.
 
 // let names = ["Sanket","Divya", "Amit", "Pooja", "Rahul", "Sneha", "Om", "Vishal"];
 
@@ -557,7 +557,7 @@
 // }
 
 
-//* Q 1 Print numbers from 10 to 1 in reverse order.
+ //* Q 1 Print numbers from 10 to 1 in reverse order.
 
 // var num = 1
 // while (num<=10) {
@@ -566,7 +566,7 @@
 
 
 
-//* Q 2 Print numbers from 10 to 1 in reverse order.  
+ //* Q 2 Print numbers from 10 to 1 in reverse order.  
 
 // var num = 10
 // while (num >= 1) {
@@ -575,7 +575,7 @@
 
 
 
-//* Q 3 Take a number as input and print its multiplication table. 
+ //* Q 3 Take a number as input and print its multiplication table. 
 
 // var num = Number(prompt("table no dya"))
 // var T = 1
@@ -587,7 +587,7 @@
 
 
 
-//* Q 4 Find the sum of numbers from 1 to a given number 
+ //* Q 4 Find the sum of numbers from 1 to a given number 
 // var num = 1
 // var sum = 0
 
@@ -596,12 +596,12 @@
     
 // }
 
-//* Q 5  Reverse a given number 
-//* Q 6 Check if a number is Palindrome (उदा. 121 → Palindrome, 123 → Not Palindrome).
-//* Q 7 Check if a number is an Armstrong Number (उदा. 153 → Armstrong, 123 → Not Armstrong).
-//* Q 8 Find the factorial of a given number 
-//* Q 9 Print only even numbers from 1 to 50.
-//* Q 10 Print only odd numbers from 1 to 50.
+ //* Q 5  Reverse a given number 
+ //* Q 6 Check if a number is Palindrome (उदा. 121 → Palindrome, 123 → Not Palindrome).
+ //* Q 7 Check if a number is an Armstrong Number (उदा. 153 → Armstrong, 123 → Not Armstrong).
+ //* Q 8 Find the factorial of a given number 
+ //* Q 9 Print only even numbers from 1 to 50.
+ //* Q 10 Print only odd numbers from 1 to 50.
 
 
 
