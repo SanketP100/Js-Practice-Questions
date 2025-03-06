@@ -1671,3 +1671,44 @@
 
 
 
+
+
+
+// *** 📌 Return ***
+
+// दोन संख्यांची बेरीज करणारे फंक्शन लिहा आणि परिणाम परत करा.
+// Write a function that adds two numbers and returns the result.
+
+// let addsTwoNum = (num1, num2) => num1 + num2
+// console.log(addsTwoNum(2, 5));
+
+
+
+// वय तपासणारे फंक्शन लिहा जे 18 पेक्षा कमी असल्यास "Underage" परत करेल.
+// Write a function that checks age and returns "Underage" if it is less than 18.
+
+// let checkAge = (age) => 18 >= age ? `${age} he age Underage ahe` : `${age} he age 18+ ahe congrats`
+// console.log(checkAge(19));
+
+
+
+// Array मधील प्रत्येक घटक दुप्पट करणारे map() वापरून फंक्शन लिहा.
+// Write a function using map() that doubles each element in an array.
+
+let arr = [1, 2, 3, 4, 5, 6, 7]
+
+let double = arr.map( num => num * 2 )
+console.log(double);
+
+
+// return न वापरता एखादे फंक्शन लिहा आणि त्याचा आउटपुट तपासा.
+// Write a function without using return and check its output.
+l
+
+
+
+
+// return नंतर कोड चालतो का हे तपासण्यासाठी एक उदाहरण तयार करा.
+// Create an example to check whether code executes after return.
+
+
