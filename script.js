@@ -1191,6 +1191,8 @@
 // let eknum = Number(prompt('ek no de do :'))
 // console.log(triplesNumber(eknum));
 
+
+
 // * Q3️⃣. संख्या सम (even) आहे का ते तपासणारे fat arrow function तयार करा.
 //        Create a fat arrow function that checks if a number is even.
 
@@ -1325,42 +1327,129 @@
 // 1️⃣ एका विद्यार्थ्याची माहिती (name, age, grade) असलेला ऑब्जेक्ट तयार करा आणि तो कन्सोलवर प्रिंट करा.
 // Create an object containing a student's details (name, age, grade) and print it to the console.
 
+// let studentDetails = {
+//     name : 'sanket',
+//     age : 19,
+//     grade : 95
+// }
+// console.log(studentDetails);
+
+
 
 // 2️⃣ एका car ऑब्जेक्ट मध्ये brand, model, year आणि color अशी माहिती ठेवा आणि त्या ऑब्जेक्टमधून model आणि year प्रिंट करा.
 // Create a car object with properties like brand, model, year, and color, then print the model and year.
+
+// let cars = {
+//     brand : 'Toyata',
+//     model : 'Es2025',
+//     year : 2025,
+//     color : 'red'
+// }
+// console.log(cars.model, cars.year);
 
 
 // 3️⃣ person नावाचा ऑब्जेक्ट तयार करा ज्यामध्ये name, age, आणि city असतील. त्यानंतर, त्या व्यक्तीच्या city ला नवीन शहराने अपडेट करा.
 // Create an object person with name, age, and city. Then, update the city property to a new value.
 
+// let person = {
+//     name : 'sanket',
+//     age : 23,
+//     city : 'Kolhapur'
+// }
+// person.city = 'Pune'
+// console.log(person);
+
+
 
 // 4️⃣ एका book ऑब्जेक्टमध्ये title, author, आणि price असतील. जर price ₹500 पेक्षा जास्त असेल तर "Expensive" प्रिंट करा, नाहीतर "Affordable" प्रिंट करा.
 // Create a book object with title, author, and price. If the price is greater than ₹500, print "Expensive", otherwise print "Affordable".
+
+// let Book = {
+//     title : 'JS book',
+//     author : 'harsha bhaiya',
+//     price : 599
+// }
+// Book.price > 500 ? console.log("Book Expensive") : console.log("Book Affordable");
+
 
 
 // 5️⃣ employee नावाचा ऑब्जेक्ट तयार करा ज्यामध्ये name, position, आणि salary असतील. जर salary ₹30,000 पेक्षा जास्त असेल तर त्या एम्प्लॉयीचा position "Senior" म्हणून अपडेट करा.
 // Create an employee object with name, position, and salary. If the salary is more than ₹30,000, update the position to "Senior".
 
+// let employee = {
+//     name : 'suraj',
+//     position : 'supervisor',
+//     salary : 320000
+// }
+// employee.position = employee.salary > 30000 ? "Senior" : employee.position
+// console.log(employee);
+
+
 
 // 6️⃣ एका mobile ऑब्जेक्टमध्ये brand, model, आणि features (array स्वरूपात) ठेवा. त्या features लिस्टमध्ये "5G" आहे का ते तपासा आणि result प्रिंट करा.
 // Create a mobile object with brand, model, and features (as an array). Check if "5G" is present in the features list and print the result.
+
+// let mobile = {
+//     brand : 'vivo',
+//     model : 'i20',
+//     features : ['ram 8gb' , 'memory 64gb', '5G', 'color blue']
+// }
+// mobile.features.includes('5G') ? console.log('Mobile 5G ahe') : console.log('Mobile 5G nhi');
+
+
 
 
 // 7️⃣ एका laptop ऑब्जेक्टमध्ये brand, processor, RAM, आणि price असतील. जर RAM 16GB असेल तर "High Performance Laptop" प्रिंट करा, नाहीतर "Basic Laptop" प्रिंट करा.
 // Create a laptop object with brand, processor, RAM, and price. If RAM is 16GB, print "High Performance Laptop", otherwise print "Basic Laptop".
 
+// let laptop = {
+//     brand : 'DELL',
+//     processor : 'I5',
+//     ram : '16GB',
+//     price : 25000
+// }
+
+// laptop.Ram === '16GB' ? console.log('High Performance Laptop') : console.log('Basic Laptop');
+
+
+
 
 // 8️⃣ company नावाचा एक ऑब्जेक्ट तयार करा ज्यामध्ये name, location, आणि employees (संख्या) असतील. जर employees 1000 पेक्षा जास्त असतील तर "Large Scale Company" प्रिंट करा.
 // Create an object company with name, location, and employees (count). If employees are more than 1000, print "Large Scale Company".
+
+// let company = {
+//     name : 'google',
+//     location : 'pune',
+//     employees : 1278
+// }
+
+// company.employees > 1000 ? console.log("Large Scale Company") : console.log("Small or Medium Scale Company");
+
 
 
 // 9️⃣ एका movie ऑब्जेक्टमध्ये title, director, releaseYear, आणि rating असतील. जर rating 4.5 पेक्षा जास्त असेल तर "Blockbuster" प्रिंट करा, नाहीतर "Average Movie" प्रिंट करा.
 // Create a movie object with title, director, releaseYear, and rating. If the rating is above 4.5, print "Blockbuster", otherwise print "Average Movie".
 
+// let movie = {
+//     title: "Inception",
+//     director: "Christopher Nolan",
+//     releaseYear: 2010,
+//     rating: 4.8
+// }
+// movie.rating > 4.5 ? console.log("Blockbuster Movie") : console.log("Average Movie");
+
+
 
 // 🔟 एका game ऑब्जेक्टमध्ये name, genre, आणि platforms (array स्वरूपात) असतील. त्या platforms मध्ये "PC" आहे का ते तपासा आणि result प्रिंट करा.
 // Create a game object with name, genre, and platforms (as an array). Check if "PC" is present in the platforms list and print the result.
 
+// let game = {
+//     name: "Cyberpunk 2077",
+//     genre: "Action RPG",
+//     platforms: ["PC", "PlayStation", "Xbox"]
+// }
+
+// game.platforms.includes('PC') ? console.log("PC Available ahe") : console.log("PC Available nhiye");
 
 
 
@@ -1578,7 +1667,6 @@
 
 // let productsCost500 = products.filter( val => val.price > 500)
 // console.log(productsCost500);
-
 
 
 
