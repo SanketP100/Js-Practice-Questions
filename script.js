@@ -540,6 +540,12 @@
 
 
 
+
+
+
+
+
+
 // *** for-in  ***
 
 
@@ -555,6 +561,7 @@
 //     experience: 2,
 // };
 
+
 // **✅ for-in loop चे सिंटॅक्स: **
 
 // const object = { key1: "value1", key2: "value2" };
@@ -566,41 +573,104 @@
 // * Q1️⃣. एका ऑब्जेक्ट मधील सर्व key आणि value प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print all keys and values of an object.
 
+// for (let key in person) {
+//    console.log(`${key} : ${person[key]}`);
+// }
+
+
 
 // * Q2️⃣. एका ऑब्जेक्ट मधील फक्त key प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print only the keys of an object.
+
+// for (let key in person) {
+//     console.log(key);
+//  }
+
 
 
 // * Q3️⃣. एका ऑब्जेक्ट मधील फक्त value प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print only the values of an object.
 
+// for(let key in person) {
+//     console.log(person[key]);
+// }
+
+
 
 // * Q4️⃣. एका ऑब्जेक्ट मधील string-type value फक्त प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print only the string values of an object.
+
+// for(let key in person){
+//     if (typeof person[key] === "string") {
+//         console.log(person[key]); 
+//     } 
+// }
+
 
 
 // * Q5️⃣. एका ऑब्जेक्ट मधील सर्व value uppercase मध्ये convert करणारा for-in लूप लिहा.
 //        Write a for-in loop to convert all values of an object to uppercase.
 
+// for(let key in person){
+//     if (typeof person[key] === "string") {
+//         person[key] = person[key].toUpperCase()
+//     }
+// }
+// console.log(person);
+
 
 // * Q6️⃣. एका ऑब्जेक्ट मधील सर्व numeric values ची बेरीज करणारा for-in लूप लिहा.
 //        Write a for-in loop to sum all numeric values in an object.
+
+// let sum = 0
+// for(let key in person){
+//     if (typeof person[key] === "number") {
+//         sum += person[key]
+//     }
+// }
+// console.log(`total sum : ${sum}`);
 
 
 // * Q7️⃣. एका ऑब्जेक्ट मधील key नाव 5 पेक्षा मोठे असतील तर तेच प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print keys only if they are longer than 5 characters.
 
+// for(let key in person){
+//     if (key.length > 5) {
+//         console.log(key);
+//     }
+// }
+
 
 // * Q8️⃣. एका ऑब्जेक्ट मधील फक्त true असलेल्या key-value pairs प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print only key-value pairs where the value is true.
 
+// for(let key in person){
+//     if (person[key] === true) {
+//         console.log(`${key} : ${person[key]}`); 
+//     }
+// }
 
 // * Q9️⃣. एका ऑब्जेक्ट मधील value null किंवा undefined असतील तर त्यांना वगळून बाकी प्रिंट करणारा for-in लूप लिहा.
 //        Write a for-in loop to print all key-value pairs except those with null or undefined values.
 
+// for(let key in person){
+//     if (person[key] !== null && person[key] !== undefined) {
+//         console.log(`${key} : ${person[key]}`);
+        
+//     }
+// }
+
 
 // * Q🔟. एका ऑब्जेक्ट मधील key आणि value उलट करून नवीन ऑब्जेक्ट बनवा (for-in वापरून).
 //       Write a for-in loop to create a new object with keys and values swapped.
+
+// let swappedObj = {}
+
+// for(let key in person){
+//     swappedObj[person[key]] = key
+// }
+
+// console.log(swappedObj);
 
 
 
@@ -661,12 +731,8 @@
 
 // }
 
-//* Q 5  Reverse a given number 
-//* Q 6 Check if a number is Palindrome (उदा. 121 → Palindrome, 123 → Not Palindrome).
-//* Q 7 Check if a number is an Armstrong Number (उदा. 153 → Armstrong, 123 → Not Armstrong).
-//* Q 8 Find the factorial of a given number 
-//* Q 9 Print only even numbers from 1 to 50.
-//* Q 10 Print only odd numbers from 1 to 50.
+
+
 
 
 
@@ -677,26 +743,28 @@
 
 // *** function ***
 
+// ** function Statement
 
 // function sanket() {
 
 // }
 
 
+// ** function expression
 
 // var a = function() {
 
 // }
 
 
-
+// ** Anonymous Function
 // function(){
 
 // }
 
 
 
-// fat arrow function 
+// ** fat arrow function 
 
 // ()=>{
 
@@ -707,14 +775,21 @@
 // }
 
 
-
-// fat arrow with one param 
+// ** fat arrow with one param 
 
 // var S = (D)=>{
 //    console.log(D);
 
 // }
 // S(100)
+
+
+// ** fat arrow with Implicit Return 
+
+// let arr = () => direct Return kru shakto js ki ( Number, String, Array, Object, function(){}, ex.... )
+
+
+
 
 
 
@@ -910,17 +985,69 @@
 // * Q7️⃣. संख्येच्या पहिल्या अंकावरून सम किंवा विषम आहे का ते ठरवणारे function expression तयार करा.
 //        Create a function expression that checks if the first digit of a number is even or odd.
 
+// let firstDigitEvenOrOdd = function (num) {
+//     let firstNum = Number(String(num)[0])
+//     return firstNum % 2 === 0 ? 'Even' : 'Odd'
+// }
+
+// let eknum = Number(prompt('ek num de do bhai :'))
+// console.log(firstDigitEvenOrOdd(eknum));
+
+
 
 // * Q8️⃣. संख्या negative आहे का हे तपासणारे function expression तयार करा.
 //        Create a function expression that checks if a number is negative.
+
+// let checkNegativeNumber = function (num) {
+//     return num < 0 ? "Negative" : "Not Negative"
+// }
+// let eknum = Number(prompt('ek num de do bhai :'))
+// console.log(checkNegativeNumber(eknum));
+
+
 
 
 // * Q9️⃣. दोन संख्यांची सरासरी (average) काढणारे function expression तयार करा.
 //        Create a function expression that finds the average of two numbers.
 
+// let averageTwoNumbers = function (num1 , num2) {
+//     return (num1 + num2) / 2
+// }
+// let num1 = Number(prompt('ek num de do bhai :'))
+// let num2 = Number(prompt('or ek num de do bhai :'))
+
+// console.log(averageTwoNumbers(num1 , num2));
+
+
+// *** तू तीन किंवा जास्त संख्यांची सरासरी काढणारा function पण करू शकतोस:
+
+// let averagemultipleNumbers = function (...Mnum) {
+//     let sumNum = Mnum.reduce((acc , num)=> acc + num , 0)
+//     return sumNum / Mnum.length
+
+// }
+
+// console.log(averagemultipleNumbers(10,20,30,40));
+
+
 
 // * Q🔟. संख्येच्या पहिल्या आणि शेवटच्या अंकांची बेरीज करणारे function expression तयार करा.
 //        Create a function expression that adds the first and last digit of a number.
+
+// let addsFirstLastDigit = function (num) {
+//     num = Math.abs(num)
+//     let lastDigit = num % 10    
+
+//     while (num >= 10) {
+//         num = Math.floor(num / 10)
+//     }
+//     let fristDigit = num
+
+//     return fristDigit + lastDigit
+// }
+
+// let eknum = Number(prompt('ek num de do : '))
+// console.log(addsFirstLastDigit(eknum));
 
 
 
@@ -929,28 +1056,43 @@
 
 // * Q1️⃣. संख्येच्या वर्गमूळ (square root) परत करणारे anonymous function तयार करा.
 //        Create an anonymous function that returns the square root of a number.
-// var num = function(){
+// console.log(function(){
 //     let num = 20
 //     num *= num
-// }
+// }());
+
 
 
 // * Q2️⃣. संख्या सम (even) आहे का ते तपासणारे anonymous function तयार करा.
 //        Create an anonymous function that checks if a number is even.
 
-// let evenNumFun = function () {
+// console.log((function () {
 //     let num = Number(prompt("number do : "))
 //     if (num % 2 === 0) {
-//         console.log(num + " ha num Even ahe");
+//         return num + " ha num Even ahe"
 //     }else{
-//         console.log(num +" ha num odd ahe");
+//         return num +" ha num odd ahe"
 //     }
-// }
-// evenNumFun();
+// })());
+
+
 
 
 // * Q3️⃣. संख्येच्या पहिल्या आणि शेवटच्या अंकांची बेरीज करणारे anonymous function तयार करा.
 //        Create an anonymous function that adds the first and last digit of a number.
+
+// console.log((function (num) {
+//     num = Math.abs(num)
+//     let lastDigit = num % 10 
+
+//     while (num >= 10){
+//         num = Math.floor(num / 10)  
+//     } 
+//     let fristDigit = num
+
+//     return fristDigit + lastDigit 
+// })(1219));
+
 
 
 
@@ -984,6 +1126,12 @@
 
 
 
+
+
+
+
+
+
 // *** 📌 5️⃣ Fat Arrow Function with One Parameter वर 10 प्रश्न ***
 
 // * Q1️⃣. संख्येचा cube (घन) परत करणारे fat arrow function तयार करा.
@@ -1007,10 +1155,20 @@
 // * Q3️⃣. संख्येच्या पहिल्या आणि शेवटच्या अंकांची बेरीज करणारे fat arrow function तयार करा.
 //        Create a fat arrow function that adds the first and last digit of a number.
 
-// let printLastDigit = val => Math.abs(val) % 10
+
+// let printLastDigit = val => {
+
+//    val =  Math.abs(val)
+//     let lastD = val % 10
+
+//     while (val >= 10) val = Math.floor(val / 10)
+
+//         return val + lastD
+// } 
 
 // let eknum = Number(prompt('ek number de do :')) 
 // console.log(printLastDigit(eknum));
+
 
 
 
@@ -1420,6 +1578,7 @@
 
 // let productsCost500 = products.filter( val => val.price > 500)
 // console.log(productsCost500);
+
 
 
 
